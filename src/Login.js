@@ -19,9 +19,11 @@ const Login = () => {
 				<input className='login__id' placeholder='ID'/>
 				<input className='login__password' placeholder='Пароль' type={canView ? 'text':'password'}/>
 			</div>
+			
 			<button className='login__button'>
 				Вход
 			</button>
+			<a href='/' className='forgot'>Забыли пароль?</a>
 		</div>
 	)
 }
