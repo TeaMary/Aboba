@@ -1,0 +1,26 @@
+.profile__container {
+	display: flex;
+	flex-direction: row;
+
+	font-size: 19px;
+}
+
+.avatar {
+	margin-right: 12px;
+}
+
+.info__container {
+	display: flex;
+	flex-direction: row;
+
+	font-size: 14px;
+	color: #898989;
+
+	margin-top: 2px;
+
+	justify-content: space-between;
+}
+
+.profile__text {
+	margin-top: 3px;
+}
