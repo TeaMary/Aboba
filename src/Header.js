@@ -11,9 +11,12 @@ import Profile from './Profile';
 
 const Header = () => {
 	return (
-		<div className='header__container'>
-			<img src={logo} alt='Loading...' className='header__logo'/>
-			<Profile/>
+		<div >
+			<div className='header__container'>
+				<img src={logo} alt='Loading...' className='header__logo'/>
+				<Profile/>
+			</div>
+			<hr color='#BFBFBF'/>
 		</div>
 	)
 }
