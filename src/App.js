@@ -6,12 +6,12 @@ import Login from './Login';
 
 //components
 import Header from './Header';
-
+import Filter from './Filter';
 
 const App = () => {
 	return (
 		<div className="App">
-			<Header/>
+			<Filter/>
 		</div>
 	);
 }
