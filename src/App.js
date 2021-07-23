@@ -3,15 +3,12 @@ import './App.css';
 
 //screens
 import Login from './Login';
-
-//components
-import Header from './Header';
-import Filter from './Filter';
+import MyEvents from './MyEvents';
 
 const App = () => {
 	return (
 		<div className="App">
-			<Filter/>
+			<MyEvents/>
 		</div>
 	);
 }
