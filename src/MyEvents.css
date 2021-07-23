@@ -1,0 +1,51 @@
+.myevents__container {
+	padding-left: 11%;
+	padding-right: 11%;
+}
+
+.add__event__button {
+	width: 320px;
+	height: 52px;
+
+	background: #0094FF;
+	border-radius: 25px;
+	border: 0;
+
+	display: flex;
+
+	/* text */
+	font-size: 15px;
+	font-weight: 700;
+	font-family: Montserrat;
+	color: #fff;
+
+	padding-right: 42px;
+	padding-left: 45px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.myevents__header {
+	display: flex;
+
+	margin-top: 25px;
+
+	justify-content: space-between;
+}
+
+.myevents__buttons {
+	display: flex;
+
+	width: 495px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+table {
+	border: 1px black;
+}
+
+tr {
+	border-radius: 5px;
+	background-color: blue;
+}

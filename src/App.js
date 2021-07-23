@@ -3,19 +3,14 @@ import './App.css';
 
 //screens
 import Login from './Login';
-import AddingEvent from './adding_event';
+import MyEvents from './MyEvents';
 
-//components
-import Header from './Header';
-import Filter from './Filter';
-
-function App() {
-  return (
-    <div className="App">
-	
-    <Login/>
-    </div>
-  );
+const App = () => {
+	return (
+		<div className="App">
+			<MyEvents/>
+		</div>
+	);
 }
 
 export default App;
