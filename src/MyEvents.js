@@ -7,15 +7,7 @@ import './MyEvents.css';
 import Header from './Header';
 import Filter from './Filter';
 
-//libs
-import {BootstrapTable, TableHeaderColumn} from 'react-bootstrap-table';
-
 const MyEvents = () => {
-	var data = [
-		{id: 1, name: 'Gob', value: '2'},
-		{id: 2, name: 'Buster', value: '5'},
-		{id: 3, name: 'George Michael', value: '4'}
-	];
 	return(
 		<div>
 			<Header/>
