@@ -1,8 +1,4 @@
 .login__screen{
-	/*width: auto;*/
-	/*height: auto;*/
-	/*margin: auto;*/
-
 	padding-left: 34%;
 	padding-right: 34%;
 	padding-top: 9.2%;
@@ -12,12 +8,14 @@
 	position: absolute;
 	left: 0;
 	height: 100vh;
+	width: 50vh;
 }
 
 .login_sticks_left{
 	position: absolute;
 	right: 0;
 	height: 100vh;
+	width: 50vh;
 }
 
 .logo {
@@ -46,9 +44,14 @@
 .login__box input {
 	width: 100%;
 	height: 100%;
-	padding-left: 30px;
+	padding: 2px 1px 1px 31px;
 	border-radius: 51px;
 	border: 1px #0094FF solid;
+}
+
+.login__box input:hover{
+	border: 3px #0094FF solid;
+	padding: 0 0 0 30px;
 }
 
 .login__id {
@@ -84,9 +87,10 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-
 	padding-top: 21px;
-	position: absolute;
+
+	position: relative;
+	left: -60px;
 	width: 581px;
 	/*height: 10000px;*/
 
@@ -124,7 +128,7 @@
 .input_icon-show{
 	position: absolute;
 	top: 26px;
-	right: 26px;
+	right: 0;
 }
 
 .forgot__button{
@@ -136,4 +140,14 @@
 	font-weight: 500;
 
 	text-decoration: none;
+}
+
+.error {
+	border: 5px red solid;
+}
+
+.login_error{
+	color: red;
+	/*width: 1em;*/
+	height: 1.5em;
 }
