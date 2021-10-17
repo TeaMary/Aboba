@@ -1,13 +1,13 @@
 import React from 'react';
 
 //css
-import './Profile.css';
+import './Bar2.css';
 
 
-const Profile = () => {
+const Bar2 = () => {
 	return (
 		<div className='main'></div>
 	)
 }
 
-export default Profile;
+export default Bar2;

@@ -1,24 +1,7 @@
-.profile__container {
-	display: flex;
-	flex-direction: row;
+.main{
+	position: relative;
+width: 1440px;
+height: 1024px;
 
-	align-items: center;
-
-	font-size: 19px;
-}
-
-.info__container {
-	display: flex;
-	flex-direction: row;
-
-	font-size: 14px;
-	color: #898989;
-
-	margin-top: 2px;
-
-	justify-content: space-between;
-}
-
-.profile__text {
-	margin-right: 14px;
+background: #FFFFFF;
 }

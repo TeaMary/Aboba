@@ -1,13 +1,13 @@
 import React from 'react';
 
 //css
-import './Profile.css';
+import './num2.css';
 
 
-const Profile = () => {
+const num2 = () => {
 	return (
 		<div className='main'></div>
 	)
 }
 
-export default Profile;
+export default num2;
